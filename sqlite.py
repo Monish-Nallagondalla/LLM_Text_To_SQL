@@ -10,6 +10,7 @@ create Table STUDENT (NAME VARCHAR(25),CLASS VARCHAR(25),SECTION VARCHAR(25),MAR
 cursor.execute(table_info)
 
 ## Insert some more records
+cursor.execute('''Insert Into STUDENT values('Monish','Data Science','A+',90)''')
 cursor.execute('''Insert Into STUDENT values('Krish','Data Science','A',90)''')
 cursor.execute('''Insert Into STUDENT values('John','Data Science','B',100)''')
 cursor.execute('''Insert Into STUDENT values('Mukesh','Data Science','A',86)''')
